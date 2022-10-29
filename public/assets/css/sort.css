@@ -1,0 +1,30 @@
+.dropbtn {
+    color: white;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4771cb;
+    min-width: 200px;   
+}
+  
+.dropdown-content a {
+    padding: 0px 16px;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+      background-color: #f1f1f1;
+      color: #4771cb;
+}
+  
+.scroll-to-section:hover .dropdown-content {
+    display: block;
+}
+
+.scroll-to-section {
+  position: relative;
+  top: 6px;
+}
